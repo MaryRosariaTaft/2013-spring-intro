@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title> Mary Taft | Gallery </title>
+		<meta name="description" content="A Site by Mary">
+		<meta name="author" content="Mary taft">
+	</head>
+
+	<style type="text/css">
+		body {background-color:#CD853F}
+		h1 {font-family: Times New Roman; color: brown}
+		h2 {font-family: Times New Roman; font-style: italic; color: brown}
+		p {font-size: 18px; color: black; text-align: left}
+		h4 {font-family: Times New Roman; font-size: 25px; color: brown; font-style: italic}
+		header {background-color: #FF9900}
+		div {font-size: 20px; text-align: center}
+		table {text-align: center; font-size: 12px; font-weight: bold; font-family: arial}
+	</style>
+
+	<header>
+		<h1> <center> Mary Rosaria Cecilia Taft </h1>
+		<h2> <center> <i> by herself </i> </h2>
+	</header>
+
+	<div id="menu" style="background-color: #FFA500">
+		<a href="home.html">Home</a>
+		<a href="about_me.html">About Me</a>
+		<a href="gallery.html">Gallery</a>
+		<a href="music.html">Music</a>
+		<a href="contact.html">Contact</a>
+	</div>
+
+	<body>
+		<p> Here are some pictures I've taken. </p>
+
+	<table>
+		<tr>
+			<td> On the Merrimack </td>
+			<td> Nelson A. Rockefeller Park </td> 
+ 			<td> Over the East River </td>
+		</tr>
+		<tr>
+			<td> <img src="photos1/boat.jpg" height="488" width="33%"> </td>
+			<td> <img src="photos1/butterfly.jpg" height="488" width="33%"> </td> 
+ 			<td> <img src="photos1/island.jpg" height="488" width="33%"> </td>
+		</tr>
+		<tr>
+			<td> Surrogate's Court </td>
+			<td> The TriBeCa Bridge </td> 
+ 			<td> Soldiers' and Sailors' Monument atop East Rock, New Haven </td>
+		<tr>
+			<td> <img src="photos1/facade.jpg" height="488" width="33%"> </td>
+			<td> <img src="photos1/bridge.jpg" height="488" width="33%"> </td> 
+ 			<td> <img src="photos1/monument.jpg" height="488" width="33%"> </td>
+		</tr>
+		<tr>
+			<td> In Fairfield, Connecticut </td>
+			<td> On the Hudson </td> 
+ 			<td> At a Beach in Connecticut </td>
+		<tr>
+		<tr>
+			<td> <img src="photos1/rainbow.jpg" height="488" width="33%"> </td>
+			<td> <img src="photos1/snow.jpg" height="488" width="33%"> </td> 
+ 			<td> <img src="photos1/sidewalk.jpg" height="488" width="33%"> </td>
+		</tr>
+		<tr>
+			<td> Sky Above the Jacqueline Kennedy Onassis Reservoir </td>
+			<td> The National Airforce Museum in Ohio </td> 
+ 			<td> A Fallen Tree in Manhattan after Sandy </td>
+		<tr>
+		<tr>
+			<td> <img src="photos1/reservoir.jpg" height="488" width="33%"> </td>
+			<td> <img src="photos1/plane.jpg" height="488" width="33%"> </td> 
+ 			<td> <img src="photos1/tree.jpg" height="488" width="33%"> </td>
+		</tr>
+	</table>
+
+		<p> Later, I'll have some of my sketches and a few pictures of me.  I hope you enjoyed for now! </p>
+
+	</body>
+
+</html>

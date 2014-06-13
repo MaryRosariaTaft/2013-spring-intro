@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title> Mary Taft | About Me </title>
+		<meta name="description" content="A Site by Mary">
+		<meta name="author" content="Mary taft">
+	</head>
+
+	<style type="text/css">
+		body {background-color:#CD853F}
+		h1 {font-family: Times New Roman; color: brown}
+		h2 {font-family: Times New Roman; font-style: italic; color: brown}
+		p {font-size: 18px; color: black; text-align: left}
+		h4 {font-family: Times New Roman; font-size: 25px; color: brown; font-style: italic}
+		header {background-color: #FF9900}
+		div {font-size: 20px; text-align: center}
+	</style>
+
+	<header>
+		<h1> <center> Mary Rosaria Cecilia Taft </h1>
+		<h2> <center> <i> by herself </i> </h2>
+	</header>
+
+	<div id="menu" style="background-color: #FFA500">
+		<b><a href="home.html">Home</a>
+		<a href="about_me.html">About Me</a>
+		<a href="gallery.html">Gallery</a>
+		<a href="music.html">Music</a>
+		<a href="contact.html">Contact</a></b>
+		<br>
+		<a href="../index.html"> <small> Return to Index </small> </a>
+	</div>
+
+	<body>
+		<ul>
+			<li> <b> <font color = brown> Background: </font> </b>
+				<ul>
+					<li> 50% Filipino </li>
+					<li> 25% Italian </li>
+					<li> 25% Finnish </li>
+					<li> 100% American </li>
+				</ul>
+			</li>
+			<li> <b> <font color = brown> Religion: </font> </b> Roman Catholic </li>
+			<li> <b> <font color = brown> Schools: </font> </b>
+				<ul>
+					<li> St. Joseph's School - Yorkville </li>
+					<li> Stuyvesant High School </li>
+				</ul>
+			<li> <b> <font color = brown> Instruments (Studied): </font> </b>
+				<ul>
+					<li> Piano (classical) </li>
+					<li> Trumpet (undecided genre) </li>
+				</ul>
+			</li>
+			<li> <b> <font color = brown> Sports (Recreational): </font></b>
+				<ul>
+					<li> Tennis </li>
+					<li> Skating (roller- and ice-) </li>
+					<li> Biking </li>
+					<li> Swimming </li>
+					<li> Weightlifting </li>
+				</ul>
+			</li>
+			<li> <b> Hobbies: </b> </li>
+				<ul>
+					<li> Photography (film and digital) </li>
+					<li> Reading </li>
+					<li> Writing </li>
+					<li> Singing (sometimes with guitar) </li>
+					<li> Sketching </li>
+					<li> Programming </li>
+					<li> Philosophizing </li>
+					<li> Traveling (often domestic road trips) </li>
+					<li> Walking </li>
+				</ul>
+		</ul>
+	</body>
+
+</html>

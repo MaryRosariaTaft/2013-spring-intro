@@ -1,0 +1,62 @@
+<!--
+in form:
+	action = executable file
+	method = type of execution
+in input:
+	type = type of values which will appear
+	name = variable name (which will be executed in the other file)
+	value = what will appear the module
+-->
+
+<html>
+    <head>
+        <title> Input </title>
+    </head>
+    <body><font color="red">
+	<b> Warning: </b> Because this program is still under testing, check that you didn't make any typos before you submit your information.  You currently can't erase them.<br>Equally importantly, don't use any commas <i>except in the summary box</i>.  Otherwise, the catalog will become misaligned, and you'll be sad.  </font>
+	<p>
+        <form action="confirmation.py" method="get">
+		<b> Title: </b> <input type="text" name="title">
+		<p>
+        	<b> Author (Last First)*: </b> <input type="text" name="author">
+		<br> <small>*remember, no commas</small>
+		<p>
+		<b> Publisher: </b> <input type="text" name="publisher">
+		<p>
+		<b> Year of Publication: </b> <input type="text" name="year" maxlength=4 size=4>
+		<p>
+		<b> ISBN: </b>
+			<input type="text" name="isbn" maxlength=13 size=13>
+		<p>
+		<b> Classification: </b>
+		<br>
+		<select name="classification">
+			<option value="Computer Science/Information and General Works"> Computer Science/Information and General Works <br>
+			<option value="Philosophy and Psychology"> Philosophy and Psychology <br>
+			<option value="Religion"> Religion <br>
+			<option value="Social Sciences"> Social Sciences <br>
+			<option value="Language"> Language <br>
+			<option value="Science"> Science <br>
+			<option value="Technology"> Technology <br>
+			<option value="Arts and Recreation"> Arts and Recreation <br>
+			<option value="Literature"> Literature <br>
+			<option value="History and Geography"> History and Geography<br>
+		</select>
+		<p>
+		<b> Fiction/Nonfiction: </b> <br>
+			<input type="radio" name="ficnon" value="Fiction"> Fiction <br>
+			<input type="radio" name="ficnon" value="Nonfiction"> Nonfiction <br>
+		<p>
+		<b> Available Binding: </b> <br>
+			<input type="checkbox" name="Softcover"> Softcover <br>
+			<input type="checkbox" name="Hardcover"> Hardcover <br>
+			<input type="checkbox" name="Spiralbound"> Spiralbound <p>
+		<p>
+		<b> Summary: </b> <br>
+		<input type="text" name="summary" size=50>
+		<br>
+		<input type="submit" value="Submit">
+
+        </form>
+    </body>
+</html>

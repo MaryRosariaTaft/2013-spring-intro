@@ -1,0 +1,14 @@
+<html>
+	<head><title>Magic Eight Ball</title></head>
+	<table>
+		<td>
+		<img src="../pics/8_ball_face.jpg" height="290" width="320">
+		</td>
+	</table>
+	<br>
+        <form action="magic_eight_ball.py" method="get">
+        Question: <input type="text" name="FirstName">
+		<br>
+		<input type="submit" value="Submit">
+        </form>
+</html>

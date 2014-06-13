@@ -1,0 +1,28 @@
+<!--
+in form:
+	action = executable file
+	method = type of execution
+in input:
+	type = type of values which will appear
+	name = variable name (which will be executed in the other file)
+	value = what will appear the module
+-->
+
+<html>
+    <head>
+        <title> Circle Form </title>
+    </head>
+    <body>
+        <form action="circle.py" method="get">
+		Radius: <input type="text" name="radius"> <br>
+		<input type="checkbox" name="diameter"> Diameter <br>
+		<input type="checkbox" name="circumference"> Circumference <br>
+		<input type="checkbox" name="area"> Area <p>
+		<b> Pick a font color, since it's always nice to have that option when you're calculating your circle functions. </b> <br>
+		<input type="radio" name="fontColor" value="black"> Black
+		<input type="radio" name="fontColor" value="blue"> Blue
+		<input type="radio" name="fontColor" value="red"> Red
+		<input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
