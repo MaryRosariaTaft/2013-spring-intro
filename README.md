@@ -1,2 +1,6 @@
-homework-spring-2013
-====================
+Homework, Spring 2013
+==================
+
+**Teacher: Mr. Platek**
+
+**Languages: Python, HTML**
