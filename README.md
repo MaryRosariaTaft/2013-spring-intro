@@ -1,9 +1,8 @@
 Homework, Spring 2013
 ==================
 
-Intro to CS
-------------------
+###Intro to CS ###
 
-**Teacher: Mr. Platek**
+Teacher: Mr. Platek
 
-**Languages: Python, HTML**
+Languages: Python, HTML
